@@ -53,7 +53,7 @@ function cubes(a) {
 function getFirstValue(arr) {
 	return arr[0]
 }
-```
+```	
 [9.Power Calculator](https://edabit.com/challenge/wAdE9te55cowBLcPs)
 ```js
 function circuitPower(voltage, current) {
@@ -154,10 +154,91 @@ function animals(chickens, cows, pigs) {
 [24.Using the "&&" Operator](https://edabit.com/challenge/vJCZmgvvDjehyDcDK)
 ```js
 function and(a, b) {
-	return a&&b
+	return a && b
 }
 ```
-[25.]()
+[25.Are the Numbers Equal?](https://edabit.com/challenge/QSnaSH5S3oxZkwcNc)
+```js
+function isSameNum(num1, num2) {
+	if(num1===num2){
+		return true 
+	}else {
+		return false
+	}
+}
+```
+[26.Football Points](https://edabit.com/challenge/GwvwXHWCThHZrR7xu)
+```js
+function footballPoints(wins, draws, losses) {
+	return (wins * 3)+(draws * 1)+(losses * 0)
+}
+```
+[27.Convert Hours and Minutes into Seconds](https://edabit.com/challenge/JesaFi5ntBEbGT8bu)
+```js
+function convert(hours, minutes) {
+	return ((hours*60) + minutes) * 60
+}
+```
+[28.Fix the Expression](https://edabit.com/challenge/FipbQSYquQLPZ8QXG)
+```js
+function isSeven(x){
+	return x === 7;
+}
+```
+[29.Equality Check](https://edabit.com/challenge/BGvTMfwxYDRbtaTJ3)
+```js
+function checkEquality(a, b) {
+  return a === b;
+}
+```
+[30.Profitable Gamble](https://edabit.com/challenge/ghbHrRnRiDz9fvQNF)
+```js
+function profitableGamble(prob, prize, pay) {
+	return prob*prize > pay;
+}
+```
+[31.Boolean to String Conversion](https://edabit.com/challenge/KSTkFSnaYBJdo6PHx)
+```js
+function boolToString(flag){
+	return flag + "";
+}
+```
+[32.Using Arrow Functions](https://edabit.com/challenge/QkvDge63crdGnMfvM)
+```js
+// create your arrow function below
+arrowFunc = (number) => {
+	return number
+}
+```
+[33.Frames Per Second](https://edabit.com/challenge/d9suvbchE2bnHNQuK)
+```js
+function frames(minutes, fps) {
+	return minutes * fps * 60
+}
+```
+[34.Miserable Parody of a Calculator](https://edabit.com/challenge/fh9i7k936rvfjnCYR)
+```js
+function calculator(str) {
+	return eval(str);
+}
+```
+[35.Buggy Code (Part 4)](https://edabit.com/challenge/4SmqXvQtL6qRgzfha)
+```js
+function greeting(name){
+  if(name === "Mubashir") {
+    return "Hello, my Love!";
+  } else {
+		return "Hello, " + name + "!";
+	}
+}
+```
+[36.Two Makes Ten](https://edabit.com/challenge/5erCDJ8eJDrXkmwTK)
+```js
+function makesTen(a,b){
+	return a + b === 10 || a === 10 || b === 10;
+}
+```
+[37.]()
 ```js
 
 ```
